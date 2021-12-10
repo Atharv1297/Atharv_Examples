@@ -1,9 +1,10 @@
 #!/bin/bash
-
+a=$a
+b=$3
 for (( i=0; i<$1; i++ ))
 do
-    echo -n "$2"
-    fn=$(($2 + $3))
-    a=$3
+    echo -n "$a"
+    fn=$(($a + $b))
+    a=$b
     b=$fn
 done
