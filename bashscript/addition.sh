@@ -1,7 +1,7 @@
+#!/bin/bash
+
 clear
 
-read -p"enter two number: " a b
- 
-sum=$(( $a + $b ))
+sum=$(( $1 + $2 ))
  
 echo "Sum is: $sum"

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo -e "Enter Number : \c"
 read n
 for((i=2; i<=$n/2; i++))

@@ -1,18 +1,11 @@
-echo "enter the limit for series"
-N=6
-
-echo "enter the First number for series"
-a=0
-  
-echo "enter the Second number for series"
-b=1 
-   
-echo "The Fibonacci series is : "
-   
-for (( i=0; i<N; i++ ))
+#!/bin/bash
+a=$1
+b=$2
+c=$3
+for (( i=0; i<$1; i++ ))
 do
-    echo -n "$a "
-    fn=$((a + b))
-    a=$b
+    echo -n "$2"
+    fn=$(($2 + $3))
+    a=$3
     b=$fn
 done
