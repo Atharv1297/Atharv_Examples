@@ -17,3 +17,5 @@ pipeline {
                 sh 'bash /var/lib/jenkins/bashscript/division.sh ${firstnumber} ${secondnumber}'
             }  
         }
+    }
+ }
