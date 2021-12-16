@@ -1,9 +1,7 @@
 clear
-  echo "which number to generate multiplication table"
-  read number
   i=1
-  while [ $n -le 10 ]
+  while [ "$n" != 10 ]
   do
-  echo " $number * $n =`expr $number \* $n ` "
+  echo " $1 * $n =`expr $1 \* $n ` "
   n=`expr $n + 1`
   done
