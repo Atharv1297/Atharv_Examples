@@ -1,0 +1,6 @@
+---
+- name: "untar"
+  unarchive:
+            src: /home/ncs/java_install/jdk-17_linux-aarch64_bin.tar.gz
+            dest: /home/ncs/java_install
+            

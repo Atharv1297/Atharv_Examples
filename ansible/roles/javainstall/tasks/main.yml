@@ -1,0 +1,6 @@
+---
+- get_url:
+          url: "https://download.oracle.com/java/17/latest/jdk-17_linux-aarch64_bin.tar.gz"
+          dest: "/home/ncs/java_install"       
+- include: unarchive.yml
+            

@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  become: true
+  connection: ssh
+  roles: 
+          -webserver
