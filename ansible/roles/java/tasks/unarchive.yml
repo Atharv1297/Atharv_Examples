@@ -1,6 +1,19 @@
 ---
 - name: "untar"
   unarchive:
-   src: "{{ dest_tarfile }}"
-   dest: "{{ destination }}"
+    src: "{{ dest_tarfile }}"
+    dest: "{{ destination }}"
+
+- name: Set Java HOME
+  lineinfile: 
+   dest=~/.bashrc 
+   regexp='^JAVA_HOME'>
+   line="export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64"
+
+- name: Set JAVA PATH
+  lineinfile: 
+   dest=~/.bashrc regexp='^JAVA_HOME'>
+   line="export PATH=$PATH:$JAVA_hOME/bin"
+
+        
             

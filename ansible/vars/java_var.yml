@@ -1,5 +1,5 @@
 ---
- version_url: https://download.oracle.com/java/17/latest/jdk-17_linux-aarch64_bin.tar.gz
- dest_tarfile:  /home/ncs/java_install/jdk-17_linux-aarch64_bin.tar.gz
+ version_url: https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
+ dest_tarfile:  /home/ncs/java_install/jdk-17_linux-x64_bin.tar.gz
  destination: /home/ncs/java_install
  
