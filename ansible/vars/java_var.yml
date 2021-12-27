@@ -1,9 +1,10 @@
 ---
- version_url: https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
-              #https://download.java.net/openjdk/jdk8u41/ri/openjdk-8u41-b04-linux-x64-14_jan_2020.tar.gz
-              #https://mirrors.huaweicloud.com/java/jdk/8u151-b12/jdk-8u151-linux-x64.tar.gz
+ java_version: jdk-17
+ java_version_number: jdk17
+ jdk_targzfile: openjdk-17+35_linux-x64_bin.tar.gz
+ version_url: "https://download.java.net/openjdk/{{java_version_number}}/ri/{{jdk_targzfile}}"
  destination: /home/ncs/java_install/
- dest_tarfile:  "{{destination}}/jdk-17_linux-x64_bin.tar.gz"
- java_name: "{{destination}}/jdk-17.0.1"
+ dest_tarfile:  "{{destination}}/{{jdk_targzfile}}"
+ java_name: "{{destination}}/{{java_version}}"
  
 
