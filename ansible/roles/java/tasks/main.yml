@@ -4,9 +4,6 @@
    path: "{{ destination }}"
    state: directory
    mode:  '0755'
-- name: "Set URL"
-  set_fact:
-    version_url: 'https://download.java.net/openjdk/jdk16/ri/openjdk-16+36_linux-x64_bin.tar.gz'
 - get_url:
    url: "{{ version_url }}"
    dest: "{{ destination }}"
