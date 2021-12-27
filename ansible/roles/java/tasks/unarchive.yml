@@ -8,12 +8,9 @@
   lineinfile: 
    dest=~/.bashrc 
    regexp='^JAVA_HOME'>
-   line="export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64"
-
+   line='export JAVA_HOME="{{java_name}}"'
 - name: Set JAVA PATH
   lineinfile: 
    dest=~/.bashrc regexp='^JAVA_HOME'>
    line="export PATH=$PATH:$JAVA_hOME/bin"
 
-        
-            
