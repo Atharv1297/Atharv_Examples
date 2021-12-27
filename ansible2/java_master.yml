@@ -1,8 +1,0 @@
----
-- name: "java installation"
-  hosts: localhost
-  gather_facts: no
-  vars_files:
-    - ./vars/java_var.yml
-  roles:
-    - java
