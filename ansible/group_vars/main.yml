@@ -1,7 +1,7 @@
 ---
- java_version: jdk-17
- java_version_number: jdk17
- jdk_targzfile: openjdk-17+35_linux-x64_bin.tar.gz
+ java_version: jdk-16
+ java_version_number: jdk16
+ jdk_targzfile: openjdk-16+36_linux-x64_bin.tar.gz
  version_url: "https://download.java.net/openjdk/{{java_version_number}}/ri/{{jdk_targzfile}}"
  destination: /home/ncs/java_install/
  dest_tarfile:  "{{destination}}/{{jdk_targzfile}}"
