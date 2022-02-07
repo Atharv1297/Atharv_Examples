@@ -1,0 +1,88 @@
+    INPUT/OUTPUT
+    Exercise 1: Accept numbers from a user
+    Exercise 2: Display three string “Name”, “Is”, “James” as “Name**Is**James”
+    Exercise 3: Convert Decimal number to octal using print() output formatting
+    Exercise 4: Display float number with 2 decimal places using print()
+    Exercise 5: Accept a list of 5 float numbers as an input from the user
+    Exercise 6: Write all content of a given file into a new file by skipping line number 5
+    Exercise 7: Accept any three string from one input() call
+    Exercise 8: Format variables using a string.format() method.
+    Exercise 9: Check file is empty or not
+    Exercise 10: Read line number 4 from the following file
+    
+    FUNCTION
+    Exercise 1: Create a function in Python
+    Exercise 2: Create a function with variable length of arguments
+    Exercise 3: Return multiple values from a function
+    Exercise 4: Create a function with default argument
+    Exercise 5: Create an inner function to calculate the addition in the following way
+    Exercise 6: Create a recursive function
+    Exercise 7: Assign a different name to function and call it through the new name
+    Exercise 8: Generate a Python list of all the even numbers between 4 to 30
+    Exercise 9: Find the largest item from a given list
+    
+    
+    DATA STRUCTURE
+    
+    LIST
+    Exercise 1: Reverse a list in Python
+    Exercise 2: Concatenate two lists index-wise
+    Exercise 3: Turn every item of a list into its square
+    Exercise 4: Concatenate two lists in the following order
+    Exercise 5: Iterate both lists simultaneously
+    Exercise 6: Remove empty strings from the list of strings
+    Exercise 7: Add new item to list after a specified item
+    Exercise 8: Extend nested list by adding the sublist
+    Exercise 9: Replace list’s item with new value if found
+    Exercise 10: Remove all occurrences of a specific item from a list.
+    
+    DICTIONARY
+    Exercise 5: Create a dictionary by extracting the keys from a given dictionary
+    Exercise 6: Delete a list of keys from a dictionary
+    Exercise 7: Check if a value exists in a dictionary
+    Exercise 8: Rename key of a dictionary
+    Exercise 9: Get the key of a minimum value from the following dictionary
+    Exercise 10: Change value of a key in a nested dictionary
+    
+    TUPLE
+    Exercise 6: Copy specific elements from one tuple to a new tuple
+    Exercise 7: Modify the tuple
+    Exercise 8: Sort a tuple of tuples by 2nd item
+    Exercise 9: Counts the number of occurrences of item 50 from a tuple
+    Exercise 10: Check if all items in the tuple are the same
+    
+    SET
+    Exercise 6: Return a set of elements present in Set A or B, but not both
+    Exercise 7: Check if two sets have any elements in common. If yes, display the common elements
+    Exercise 8: Update set1 by adding items from set2, except common items
+    Exercise 9: Remove items from set1 that are not common to both set1 and set2
+    
+    
+    
+    OOPS
+    OOP Exercise 1: Create a Class with instance attributes
+    OOP Exercise 2: Create a Vehicle class without any variables and methods
+    OOP Exercise 3: Create a child class Bus that will inherit all of the variables and methods of the Vehicle class
+    OOP Exercise 4: Class Inheritance
+    OOP Exercise 5: Define a property that must have the same value for every class instance (object)
+    OOP Exercise 6: Class Inheritance
+    OOP Exercise 7: Check type of an object
+    OOP Exercise 8: Determine if School_bus is also an instance of the Vehicle class
+    
+    
+    NUMPY
+    Exercise 1: Create a 4X2 integer array and Prints its attributes
+    Exercise 2: Create a 5X2 integer array from a range between 100 to 200 such that the difference between each element is 10
+    Exercise 3: Following is the provided numPy array. Return array of items by taking the third column from all rows
+    Exercise 4: Return array of odd rows and even columns from below numpy array
+    Exercise 5: Create a result array by adding the following two NumPy arrays. Next, modify the result array by calculating the square of each
+    element
+    Exercise 6: Split the array into four equal-sized sub-arrays
+    Exercise 7: Sort following NumPy array
+    Exercise 8: Print max from axis 0 and min from axis 1 from the following 2-D array.
+    Exercise 9: Delete the second column from a given array and insert the following new column in its place.
+    Exercise 10: Create two 2-D arrays and Plot them using matplotlib
+    
+    learn panda
+    make crud with postgresql/mysql/database in python(flask,django)
+
